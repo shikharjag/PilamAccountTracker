@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			{{user}}'s Housework Tracker
+		</title>
+	</head>
+	<body>
+		<h1>{{user}}'s Housework Tracker</h1>
+		<p>Security deposit remaining: ${{deposit}}</p>
+		<p>Number of completed houseworks: {{num}}</p>
+		<p>Number of missed houseworks: {{missed}}</p>
+
+		
+		<p>
+			Completion:<progress value={{count}} max="100"></progress>{{count}}%
+		</p>
+		<h1> {{error_message}}</h1>
+
+	</body>
+</html>
